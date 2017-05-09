@@ -11,3 +11,5 @@ ENV HOME="/root" \
 
 COPY .profile .bashrc .bash_history  /etc/skel/
 COPY .profile .bashrc .bash_history  $HOME/
+
+CMD ["/bin/bash"]
