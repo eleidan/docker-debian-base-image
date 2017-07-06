@@ -1,7 +1,7 @@
 FROM debian:jessie
 
 LABEL maintainer="Oleg Kulyk" \
-      description="Debian GNU/Linux 8 (jessie)" \
+      description="Debian GNU/Linux jessie" \
       run="docker run -it --rm -v $(pwd):/home/phantom/app eleidan/debian:jessie" \
       version="2017-05-08"
 
